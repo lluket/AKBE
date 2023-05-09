@@ -9,7 +9,7 @@ Seccions, decisions preses en la presentació dels apartats, s’han utilitzat e
 ## 4 Web responsive. 
 Explica cóm ha fet (alguna tècnica) per a que la seva webs’adapti a diferents dispositius. Resolució de les imatges, etc
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](./images/logo5.png "Logo ")
 ## 5 Cartografia. 
 Cóm s’han integrat i elaborat els mapes que apareixen a la web.
 ## 6 Dificultats/millores. 
