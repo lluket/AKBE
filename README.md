@@ -3,7 +3,7 @@
 Explica **l’objectiu** *de la web* i la motivació per fer-la. Vinculació amb Geografia.
 
 Prova combit
-
+gtreger
 ## 2 Dades/continguts.
 D’on s’han tret les dades, text, fotos, etc
 ## 3 Estructura de la Web. 
