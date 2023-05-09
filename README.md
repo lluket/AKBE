@@ -1,27 +1,14 @@
 # AKBE
 Here I show the web page that I have elaborated in a subject of the university.
-### Per a què serveix aquest repositori? ###
-
-* Resum ràpid
-* Versió
-* [Aprèn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### Com puc configurar-me? ###
-
-* Resum del muntatge
-* Configuració
-* Dependències
-* Configuració de la base de dades
-* Com fer les proves
-* Instruccions de desplegament
-
-### Directrius de contribució ###
-
-* Proves de redacció
-* Revisió del codi
-* Altres directrius
-
-### Amb qui parlo? ###
-
-* Propietari o administrador del repo
-* Altres contactes de la comunitat o equip
+1 Tema/motivació. Explica l’objectiu de la web i la motivació per fer-la. Vinculació
+amb Geografia.
+2 Dades/continguts. D’on s’han tret les dades, text, fotos, etc
+3 Estructura de la Web. Seccions, decisions preses en la presentació dels
+apartats, s’han utilitzat els elements adequats per representar la informació
+(taules, diagrames
+4 Web responsive. Explica cóm ha fet (alguna tècnica) per a que la seva web
+s’adapti a diferents dispositius. Resolució de les imatges, etc
+5 Cartografia. Cóm s’han integrat i elaborat els mapes que apareixen a la web.
+6 Dificultats/millores. Reflexiona proactivament sobre el producte elaborat.
+7 Pregunta. Respon a les preguntes de manera adient i utilitza el vocabulari tècnic
+necessari.
