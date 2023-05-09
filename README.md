@@ -1,6 +1,6 @@
 # AKBE
 ## 1 Tema/motivació. 
-Explica l’objectiu de la web i la motivació per fer-la. Vinculació amb Geografia.
+Explica **l’objectiu** *de la web* i la motivació per fer-la. Vinculació amb Geografia.
 ## 2 Dades/continguts.
 D’on s’han tret les dades, text, fotos, etc
 ## 3 Estructura de la Web. 
@@ -16,3 +16,6 @@ Cóm s’han integrat i elaborat els mapes que apareixen a la web.
 Reflexiona proactivament sobre el producte elaborat.
 ## 7 Pregunta. 
 Respon a les preguntes de manera adient i utilitza el vocabulari tècnic necessari.
+- primer
+- segom
+- tercer
