@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKBE</title>
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+
+
+<body>
+
+    <header>
+
+        <div class="headeroo" id="myHeader">
+
+
+
+            <div class="logo">
+                <a href="AA_index.html"><img src="media/logo6.png"></a>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="Area_de_estudio.html">Área de estudio</a></li>
+                        <li><a href="Metodología_y_fuentes.html">Metodología y fuentes</a></li>
+                        <li><a href="Ponderaciones_de_los_criterios.html">Ponderaciones de los criterios</a></li>
+                        <li><a href="Resultados.html">Resultados</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
+            <div class="header__register">
+                <a href="Contactar.html"><input type="button" class="btn__header-register" value="Contacto"></a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="ddd">
+        <div id="map"></div>
+        <div class="descrp">
+            <p> El área de estudio escogida ha sido <b>el Tarragonès.</b> Es una comarca española formada por 22 municipios y
+                se encuentra en la costa de Cataluña, entre las comarcas del Baix Camp, el Alt Camp y el Penedés. La
+                capital de la comarca es Tarragona y la comarca tiene una población aproximada de 260.000 habitantes.
+            </p>
+            <a href="https://es.wikipedia.org/wiki/Tarragon%C3%A9s" target="_blank" class="linktgn">Click para más información sobre el Tarragonés.</a>
+        </div>
+
+
+        <!-- USO JS INCRUSTADO PORQUE HE INTENTADO MIL FORMAS DE NO HACERLO ASÍ Y NO LO CONSIGO :(  -->
+        <script>
+
+            var map = L.map('map').
+                setView([41.170301, 1.272017],
+                    14);
+
+            L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+                maxZoom: 12
+            }).addTo(map);
+
+            L.control.scale().addTo(map);
+            var latlngs = [[41.055550, 1.157320], [41.171587, 1.496117],
+            [41.209985, 1.477136], [41.241289, 1.413988], [41.254929, 1.358957],
+            [41.233574, 1.186691], [41.170480, 1.142483], [41.130037, 1.189122],
+            [41.114626, 1.098381], [41.074089, 1.117319]
+            ];
+
+            var polygon = L.polygon(latlngs, { color: 'red' }).addTo(map);
+
+        </script>
+    </main>
+
+
+
+    <!--::::Pie de Pagina::::::-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="media/logO4.png" alt="Logo6">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos la empresa líder en el sector con atención al cliente los 365 días del año, pregunte en el
+                    formulario de contacto cualquier duda sin compromiso.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social"> <!-- links páginas URV-->
+                    <a href="https://www.facebook.com/ftgURV/" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/ftgurv/?hl=en" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/ftgurv?lang=en" target="_blank" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/channel/UCIPwXzw5IkYQE1YBHuTpvDA" target="_blank"
+                        class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>AKBE</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
