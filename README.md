@@ -5,6 +5,7 @@ AKBE és una empresa que ofereix un servei on els clients poden consultar la ubi
 
 ![alt text](./media/logo6.png "Inici")
 
+
 **Objectiu:** Crear una web interactiva que promogui la venda d'un servei mostrant els resultats amb mapes interactius.
 
 **Descripció:** aquesta web ofereix als usuaris una plataforma en línia on poden descobrir i explorar diferents aspectes del nostre projecte de manera interactiva i entretinguda.
