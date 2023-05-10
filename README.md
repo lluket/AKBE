@@ -1,7 +1,7 @@
 # AKBE
 ## 1 Tema/motivació. 
 
-AKBE és una empresa que ofereix un servei on els clients poden consultar la ubicació óptima per realkitzar qualsevol tipus d'activitat. 
+AKBE és una empresa que ofereix un servei on els clients poden consultar la ubicació óptima per realitzar qualsevol tipus d'activitat. 
 
 ![alt text](./media/logo6.png "Inici")
 
