@@ -109,6 +109,7 @@ header{
     height: calc(100vh + 1100px);
     padding: 40px;
     margin: auto;
+    height: auto;
 }
 
 .cover{
@@ -477,12 +478,10 @@ text-align: justify;
     margin-top: -15px;
 }
 
-/* CSS METODOLOGIA FALTA HACER (Clases y ajustarlas AL IGUAL QUE EL TAMAÑO DEL MAIN)*/
 .myf{
     text-align: justify;
 }
-/* CSS ponderaciones (Clases y ajustarlas AL IGUAL QUE EL TAMAÑO DEL MAIN)*/
-/* CSS RESULTADO (Clases y ajustarlas AL IGUAL QUE EL TAMAÑO DEL MAIN)*/
+
 
 h4 {
     font-size: 1.5rem; /* Cambia el tamaño de la fuente */
@@ -551,3 +550,132 @@ h4 {
 }
 
 
+.diagramafoto{
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media (min-width: 768px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+.pesofactores {
+    margin-top: 30 px;
+}
+
+
+
+
+
+/*:::::Pie de Pagina 2*/
+
+.pie-pagina2{
+    width: 100%;
+    background-color: #0a141d;
+    margin-top:-200px;    
+}
+
+.pie-pagina2 .grupo-3{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina2 .grupo-3 .boxx figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina2 .grupo-3 .boxx figure img{
+    width: 250px;
+}
+.pie-pagina2 .grupo-3 .boxx h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.pie-pagina2 .grupo-3 .boxx p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina2 .grupo-3 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina2 .grupo-3 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina2 .grupo-4{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina2 .grupo-4 small{
+    font-size: 12px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina2 .grupo-3{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+.ddd{
+    max-width: 1200px;
+    height: calc(100vh + 1100px);
+    padding: 40px;
+    margin: auto;
+    height: auto;
+}
+.kkk{
+    max-width: 1200px;
+    padding: 40px;
+    margin: auto;
+    height: auto;
+}
+.lli{
+    max-width: 1200px;
+    height: 550px;
+    padding: 40px;
+    margin: auto;
+}
+
+.ultim{
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 4%;
+    text-align: justify;
+}
+.ooo{
+    height: 900px;
+}
