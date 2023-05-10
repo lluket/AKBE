@@ -3,7 +3,7 @@
 
 AKBE és una empresa que ofereix un servei on els clients poden consultar la ubicació óptima per realkitzar qualsevol tipus d'activitat. 
 
-![alt text](./media/logo5.png "Inici")
+![alt text](./media/logo4.png "Inici")
 
 **Objectiu:** Crear una web interactiva que promogui la venda d'un servei mostrant els resultats amb mapes interactius.
 
