@@ -14,7 +14,7 @@ Tot el text de la pàgina web i les fotos han estat d'elaboració pròpia a exce
 - Área de estudi: es localitza l'àrea en la qual s'ha desenvolupat el projecte.
 - Metologia i fonts: s'explica com s'ha desenvolupat el projecte i d'on provenen les bases cartogràfiques per elaborar els mapes mitjançant taules.
 - Ponderació dels criteris: es mostra mitjançant una imatge quin pes ha tingut cada factor per ubicar el resort a l'hora de realitzar l'analisis multicriteri.
-![alt text](./images/readme.png "Inici")
+![alt text](./media/readme.png "Inici")
 ## 4 Web responsive. 
 
 La técnica responsive utilitzada ha estat Media Queries:
