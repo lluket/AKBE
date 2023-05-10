@@ -1,9 +1,10 @@
 # AKBE
 ## 1 Tema/motivació. 
-Explica **l’objectiu** *de la web* i la motivació per fer-la. Vinculació amb Geografia.
 
-Prova combit
-gtreger
+**Objectiu:** Crear un web interactiu que promogui la venda d'un servei mostrant els resultats amb mapes interactius.
+
+**Descripció:** aquesta web ofereix als usuaris una plataforma en línia on poden descobrir i explorar diferents aspectes del nostre projecte de manera interactiva i entretinguda.
+
 ## 2 Dades/continguts.
 D’on s’han tret les dades, text, fotos, etc
 ## 3 Estructura de la Web. 
