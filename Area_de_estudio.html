@@ -49,38 +49,19 @@
     </header>
 
     <main class="ddd">
-        <div id="map"></div>
+
+        <iframe class=" mapa1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./Maps/areaestudio/mapa.html">
+
+        </iframe>
+
         <div class="descrp">
-            <p> El área de estudio escogida ha sido <b>el Tarragonès.</b> Es una comarca española formada por 22 municipios y
+            <p> El área de estudio escogida ha sido <b>el Tarragonés.</b> Es una comarca española formada por 22 municipios y
                 se encuentra en la costa de Cataluña, entre las comarcas del Baix Camp, el Alt Camp y el Penedés. La
                 capital de la comarca es Tarragona y la comarca tiene una población aproximada de 260.000 habitantes.
             </p>
             <a href="https://es.wikipedia.org/wiki/Tarragon%C3%A9s" target="_blank" class="linktgn">Click para más información sobre el Tarragonés.</a>
         </div>
 
-
-        <!-- USO JS INCRUSTADO PORQUE HE INTENTADO MIL FORMAS DE NO HACERLO ASÍ Y NO LO CONSIGO :(  -->
-        <script>
-
-            var map = L.map('map').
-                setView([41.170301, 1.272017],
-                    14);
-
-            L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-                maxZoom: 12
-            }).addTo(map);
-
-            L.control.scale().addTo(map);
-            var latlngs = [[41.055550, 1.157320], [41.171587, 1.496117],
-            [41.209985, 1.477136], [41.241289, 1.413988], [41.254929, 1.358957],
-            [41.233574, 1.186691], [41.170480, 1.142483], [41.130037, 1.189122],
-            [41.114626, 1.098381], [41.074089, 1.117319]
-            ];
-
-            var polygon = L.polygon(latlngs, { color: 'red' }).addTo(map);
-
-        </script>
     </main>
 
 

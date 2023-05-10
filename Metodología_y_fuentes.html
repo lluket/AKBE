@@ -68,192 +68,170 @@
                 contribuyen son aquellos que hacen la zona más atractiva, facilitando las actividades y accesibilidad y
                 los limitantes son los que en parte hacen el área menos atractiva y dificultan la implementación del
                 resort. </p>
-            <p> Una vez establecidos los factores por tipos, se debía tener una base para seleccionar la ubicación, es
-                decir, hacer un mapa para visualizar el problema y su solución. Para hacer el mapa se ha utilizado la
-                información de los diferentes factores. Esta, se ha obtenido a través de diferentes fuentes que se
-                dedican a la producción de cartografía, como se puede observar en la tabla 4. </p>
-            <p> Está claro que no todos los factores tienen la misma importancia y es importante jerarquizar la
-                información para que la importancia que le vayamos a dar sea proporcional a la realidad y se priorice la
-                seguridad, eficiencia y legalidad. Por este motivo, se ha acordado un porcentaje a cada factor que ha
-                sido representativo. </p>
-                <p>Definiciones relacionadas con la metodología:</p>
+            <p>Una vez establecidos los factores por tipos, se debía tener una base para seleccionar la ubicación, es decir, 
+                hacer un mapa para visualizar el problema y su solución. Para hacer el mapa se ha utilizado la información de 
+                los diferentes factores. Esta, se ha obtenido a través de diferentes fuentes que se dedican a la producción de 
+                cartografía, como se puede observar en la tabla 4. </p>
+            <p>Está claro que no todos los factores tienen la misma importancia y es importante jerarquizar la
+                información
+                para que la importancia que le vayamos a dar sea proporcional a la realidad y se priorice la seguridad,
+                eficiencia
+                y legalidad. Por este motivo, se ha acordado un porcentaje a cada factor que ha sido representativo.
+            </p>
 
-                <ul>
-                    <li> <b> Sistema de información geográfica</b> (SIG) es un sistema que permite recopilar, analizar e interpretar datos de diferentes fuentes y tipos. Se usa mucho en el marco de la geografía ya que las aplicaciones permiten organizar los datos en capas para poder visualizar la información para poder sacar conclusiones y tomar decisiones acertadas para los usuarios. </li>
-                    <li>  La <b>evaluación multicriterio </b> es una teoría para la toma de decisiones y análisis que incluye un numero de variables con una importancia ponderada según su importancia. </li>
-                    <li>  Un <b>factor</b> es un dato que suma a su causa, que contribuye de manera positiva mientras que un <b>limitante</b> es algo que dificulta o impide que se lleve a cabo el objetivo.</li>
-                    <li>  <b>Algoritmo de EMC</b> se usa para estimar la verosimilitud de una variable. En arcmap, este algoritmo se calcula a través del<b> sumatoria lineal ponderado,</b> que superpone dos capas de raster ponderando cada una por la importancia que se le ha asignado y combinando-se segun su peso. La <b>superposición ponderada</b> analiza varios criterios en diferentes rasters, con la funcion <b> Overlay.</b></li>
-                    <li> La <b>ponderación</b> se refiere al hecho de asignar cierta importancia a un valor o factor dependiendo respecto a otra. Se puede expresar como porcentaje. </li>
-                </ul>
-                
-                <h4> Criterios seleccionados </h4>
-                <h5> Factores seleccionados </h5>
-                <table>
-                    <tr>
-                        <th>Factor</th>
-                        <th>Descripción del factor </th>
-                        <th>Justificación del factor </th>
-                        <th>Unidades de medida </th>
-                        <th>Dirección o tendencia </th>
-                        <th> Aptitud o impacto</th>
-                    </tr>
-                    <tr>
-                        <td>Accesibilidad</td>
-                        <td>Análisis de las zonas de potenciales usuarios</td>
-                        <td>A mayor distancia de viaje, menor atracción para el cliente </td>
-                        <td>Metros (m)</td>
-                        <td>Inversa</td>
-                        <td>Aptitud</td>
-                    </tr>
-                    <tr>
-                        <td>Distancia a transporte público</td>
-                        <td>Se busca una zona con proximidad a paradas de transporte público</td>
-                        <td>Cuantos más servicios de transporte público, mejor </td>
-                        <td>Metros (m)</td>
-                        <td>Inversa</td>
-                        <td>Aptitud</td>
-                    </tr>
-                    <tr>
-                        <td>Pendiente</td>
-                        <td>Inclinación del terreno respecto a la horizontal</td>
-                        <td>A mayor pendiente del terreno mayor coste de la construcción y menor idoneidad </td>
-                        <td>Porcentaje (%)</td>
-                        <td>Inversa</td>
-                        <td>Aptitud</td>
-                    </tr>
-                    <tr>
-                        <td>Distancia a red hidrográfica o al mar</td>
-                        <td>La cercanía a la red hidrográfica o al mar nos permitirá realizar actividades relacionadas con el recurso</td>
-                        <td>Se busca que la ubicación del resort deportivo esté cerca para facilitar el transporte del material </td>
-                        <td>Metros (m)</td>
-                        <td>Inversa</td>
-                        <td>Aptitud</td>
-                    </tr>
-                    <tr>
-                        <td>Distancia a espacios protegidos</td>
-                        <td>Zonas dedicadas a la conservación de la naturaleza</td>
-                        <td>Atracción para los posibles usuarios </td>
-                        <td>Metros (m)</td>
-                        <td>Inversa</td>
-                        <td>Aptitud</td>
-                    </tr>
-                    <tr>
-                        <td>Orientación</td>
-                        <td>Es preferible por el confort climático ubicar el centro deportivo en orientación hacia el sur</td>
-                        <td>Las edificaciones que están orientadas hacia el sur en la zona de estudio reciben más luz natural. </td>
-                        <td>En categorías (8). (norte=0, nordeste=2,5, este=5, sudeste=7,5, sud=1, sudoeste=7,5, oeste=5, noroeste=2,5)</td>
-                        <td>Directa</td>
-                        <td>Aptitud</td>
-                    </tr>
-                </table>
-                
-                
-                <h5> Limitantes seleccionados</h5>
-                <table>
-                    <tr>
-                        <th>Limitante</th>
-                        <th>Descripción </th>
-                        <th>Justificación </th>
-                        <th>Unidades </th>
-                        <th>Selección</th>
-                    </tr>
-                    <tr>
-                        <td>Pendiente </td>
-                        <td>Inclinación del terreno respecto a la horizontal</td>
-                        <td>La normativa impide construcciones en pendientes mayores del 20%</td>
-                        <td>Porcentaje (%) </td>
-                        <td>Pendientes > 20 = 0<20 =1</td>
-                    </tr>
-                    <tr>
-                        <td>Zonas inundables </td>
-                        <td>Zonas inundables delimitadas por los niveles teóricos que alcanzarían las aguas en un período estadístico de 500 años</td>
-                        <td>La normativa impide construcciones en zonas inundables</td>
-                        <td>Hectáreas (ha) </td>
-                        <td>Zonas no inundables=1;Zonas inundables=0</td>
-                    </tr>
-                    <tr>
-                        <td>Espacios protegidos  </td>
-                        <td>Zonas dedicadas a la conservación de la naturaleza</td>
-                        <td>No se puede instalar el complejo en zonas como esta porque no hay suelo disponible para edificar</td>
-                        <td>Hectáreas (ha) </td>
-                        <td>Espacios no protegidos= 1;Espacios protegidos=0</td>
-                    </tr>
-                    <tr>
-                        <td>Clasificación del suelo </td>
-                        <td>Clasificación del suelo</td>
-                        <td>Hay que buscar zonas urbanizables ya que no podemos localizar el resort en zonas urbanizadas o no urbanizables. Que no hayan limites físicos para construir</td>
-                        <td>Hectáreas (ha) </td>
-                        <td>Zonas urbanizables=1; Zonas no urbanizables =0</td>
-                    </tr>
-                </table>
-                
-                <h5> Fuentes cartográficas utilizadas</h5>
-                <table>
-                    <tr>
-                        <th>Factor/Limitante</th>
-                        <th>Contenido</th>
-                        <th>Escala</th>
-                        <th>Año</th>
-                        <th>Organismo</th>
-                    </tr>
-                    <tr>
-                        <td>Accesibilidad </td>
-                        <td>Localización geográfica y forma geométrica de las entidades y áreas de población, con cobertura nacional.</td>
-                        <td>1:5000 </td>
-                        <td>2020</td>
-                        <td>CNIG</td>
-                    </tr>
-                    <tr>
-                        <td>Distància a estaciones de tren</td>
-                        <td>Estacions ferroviaries</td>
-                        <td>Sin escala</td>
-                        <td>2019</td>
-                        <td>Departamento de Territorio i Sosteniblitad de la Generalitat de Catalunya</td>
-                    </tr>
-                    <tr>
-                        <td>Pendiente </td>
-                        <td>Modelo Digital del Terreno - MDT25</td>
-                        <td>Tamaño píxel: 25x25 m</td>
-                        <td>2022</td>
-                        <td>CNIG</td>
-                    </tr>
-                    <tr>
-                        <td>Distancia a red hidrográfica</td>
-                        <td>Massas de agua superficiales</td>
-                        <td>1:50000</td>
-                        <td>2022</td>
-                        <td>Agéncia Catalana del Agua</td>
-                    </tr>
-                    <tr>
-                        <td>Inundabilidad</td>
-                        <td>Zonas potencialmente inundables por T500</td>
-                        <td>1:5000</td>
-                        <td>2020</td>
-                        <td>Agéncia Catalana del Agua</td>
-                    </tr>
-                    <tr>
-                        <td>Espacios protegidos</td>
-                        <td>Espacios de la red Natura 2000 (ZEC i ZEPA)</td>
-                        <td>1:50000</td>
-                        <td>2022</td>
-                        <td>Departamento de Acción Climática, Alimentación i Agenda Rural</td>
-                    </tr>
-                    <tr>
-                        <td>Orientación</td>
-                        <td>Modelo Digital del Terreno - MDT25</td>
-                        <td>Tamaño píxel: 25x25 m</td>
-                        <td>2022</td>
-                        <td>CNIG</td>
-                    </tr>
-                    <tr>
-                        <td>Classificacion del suelo </td>
-                        <td>MUC- Clasificaciones</td>
-                        <td> 1:5000 </td>
-                        <td>2022</td>
-                        <td>Departamento de Territorio i Sosteniblitad de la Generalitat de Catalunya</td>
-                    </tr>
-                </table>
-                
+
+            <p>Definiciones relacionadas con la metodología:</p>
+
+            <ul>
+                <li> <b> Sistema de información geográfica</b> (SIG) es un sistema que permite recopilar, analizar e
+                    interpretar datos de diferentes fuentes y tipos. Se usa mucho en el marco de la geografía ya que las
+                    aplicaciones permiten organizar los datos en capas para poder visualizar la información para poder
+                    sacar conclusiones y tomar decisiones acertadas para los usuarios. </li>
+                <li> La <b>evaluación multicriterio </b> es una teoría para la toma de decisiones y análisis que incluye
+                    un numero de variables con una importancia ponderada según su importancia. </li>
+                <li> Un <b>factor</b> es un dato que suma a su causa, que contribuye de manera positiva mientras que un
+                    <b>limitante</b> es algo que dificulta o impide que se lleve a cabo el objetivo.</li>
+                <li> <b>Algoritmo de EMC</b> se usa para estimar la verosimilitud de una variable. En arcmap, este
+                    algoritmo se calcula a través del<b> sumatoria lineal ponderado,</b> que superpone dos capas de
+                    raster ponderando cada una por la importancia que se le ha asignado y combinando-se segun su peso.
+                    La <b>superposición ponderada</b> analiza varios criterios en diferentes rasters, con la funcion <b>
+                        Overlay.</b></li>
+                <li> La <b>ponderación</b> se refiere al hecho de asignar cierta importancia a un valor o factor
+                    dependiendo respecto a otra. Se puede expresar como porcentaje. </li>
+            </ul>
+
+            <h4> Criterios seleccionados </h4>
+            <h5> Factores seleccionados </h5>
+            <table>
+                <tr>
+                    <th>Factor</th>
+                    <th>Descripción del factor </th>
+                    <th>Justificación del factor </th>
+                    <th>Unidades de medida </th>
+                    <th>Dirección o tendencia </th>
+                    <th> Aptitud o impacto</th>
+                </tr>
+                <tr>
+                    <td>Accesibilidad</td>
+                    <td>Análisis de las zonas de potenciales usuarios</td>
+                    <td>A mayor distancia de viaje, menor atracción para el cliente </td>
+                    <td>Metros (m)</td>
+                    <td>Inversa</td>
+                    <td>Aptitud</td>
+                </tr>
+                <tr>
+                    <td>Distancia a transporte público</td>
+                    <td>Se busca una zona con proximidad a paradas de transporte público</td>
+                    <td>Cuantos más servicios de transporte público, mejor </td>
+                    <td>Metros (m)</td>
+                    <td>Inversa</td>
+                    <td>Aptitud</td>
+                </tr>
+                <tr>
+                    <td>Pendiente</td>
+                    <td>Inclinación del terreno respecto a la horizontal</td>
+                    <td>A mayor pendiente del terreno mayor coste de la construcción y menor idoneidad </td>
+                    <td>Porcentaje (%)</td>
+                    <td>Inversa</td>
+                    <td>Aptitud</td>
+                </tr>
+                <tr>
+                    <td>Distancia a red hidrográfica o al mar</td>
+                    <td>La cercanía a la red hidrográfica o al mar nos permitirá realizar actividades relacionadas con
+                        el recurso</td>
+                    <td>Se busca que la ubicación del resort deportivo esté cerca para facilitar el transporte del
+                        material </td>
+                    <td>Metros (m)</td>
+                    <td>Inversa</td>
+                    <td>Aptitud</td>
+                </tr>
+
+                </tr>
+            </table>
+
+
+            <h5> Limitantes seleccionados</h5>
+            <table>
+                <tr>
+                    <th>Limitante</th>
+                    <th>Descripción </th>
+                    <th>Justificación </th>
+                    <th>Unidades </th>
+                    <th>Selección</th>
+                </tr>
+                <tr>
+                    <td>Pendiente </td>
+                    <td>Inclinación del terreno respecto a la horizontal</td>
+                    <td>La normativa impide construcciones en pendientes mayores del 20%</td>
+                    <td>Porcentaje (%) </td>
+                    <td>Pendientes > 20 = 0<20=1 </td>
+                </tr>
+                <tr>
+                    <td>Zonas inundables </td>
+                    <td>Zonas inundables delimitadas por los niveles teóricos que alcanzarían las aguas en un período
+                        estadístico de 500 años</td>
+                    <td>La normativa impide construcciones en zonas inundables</td>
+                    <td>Hectáreas (ha) </td>
+                    <td>Zonas no inundables=1;Zonas inundables=0</td>
+                </tr>
+
+            </table>
+
+            <h5> Fuentes cartográficas utilizadas</h5>
+            <table>
+                <tr>
+                    <th>Factor/Limitante</th>
+                    <th>Contenido</th>
+                    <th>Escala</th>
+                    <th>Año</th>
+                    <th>Organismo</th>
+                </tr>
+                <tr>
+                    <td>Accesibilidad </td>
+                    <td>Localización geográfica y forma geométrica de las entidades y áreas de población, con cobertura
+                        nacional.</td>
+                    <td>1:5000 </td>
+                    <td>2020</td>
+                    <td>CNIG</td>
+                </tr>
+                <tr>
+                    <td>Distància a estaciones de tren</td>
+                    <td>Estacions ferroviaries</td>
+                    <td>Sin escala</td>
+                    <td>2019</td>
+                    <td>Departamento de Territorio i Sosteniblitad de la Generalitat de Catalunya</td>
+                </tr>
+                <tr>
+                    <td>Pendiente </td>
+                    <td>Modelo Digital del Terreno - MDT25</td>
+                    <td>Tamaño píxel: 25x25 m</td>
+                    <td>2022</td>
+                    <td>CNIG</td>
+                </tr>
+                <tr>
+                    <td>Distancia a red hidrográfica</td>
+                    <td>Massas de agua superficiales</td>
+                    <td>1:50000</td>
+                    <td>2022</td>
+                    <td>Agéncia Catalana del Agua</td>
+                </tr>
+                <tr>
+                    <td>Inundabilidad</td>
+                    <td>Zonas potencialmente inundables por T500</td>
+                    <td>1:5000</td>
+                    <td>2020</td>
+                    <td>Agéncia Catalana del Agua</td>
+                </tr>
+                <tr>
+                    <td>Espacios protegidos</td>
+                    <td>Espacios de la red Natura 2000 (ZEC i ZEPA)</td>
+                    <td>1:50000</td>
+                    <td>2022</td>
+                    <td>Departamento de Acción Climática, Alimentación i Agenda Rural</td>
+                </tr>
+
+            </table>
+
 
         </div>
 
@@ -277,9 +255,9 @@
         <div class="grupo-1">
             <div class="box">
                 <figure>
-                    <a href="#">
-                        <img src="media/logO4.png" alt="Logo6">
-                    </a>
+
+                    <a href="#"><img src="media/logo4.png"></a>
+
                 </figure>
             </div>
             <div class="box">
@@ -302,6 +280,7 @@
             <small>&copy; 2023 <b>AKBE</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
 
 </body>
