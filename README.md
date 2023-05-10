@@ -26,11 +26,15 @@ Es defineixen utilitzant la regla @media a CSS. Dins d'aquesta regla, s'especifi
 Finalment, ofereixen una manera poderosa de crear dissenys responsius i adaptatius. Pots utilitzar-les per ajustar la mida dels elements, amagar o mostrar contingut, canviar la disposició dels elements i molt més, en funció de les característiques del dispositiu on es visualitza el teu lloc web.
 
 ## 5 Cartografia. 
-Cóm s’han integrat i elaborat els mapes que apareixen a la web.
-## 6 Dificultats/millores. 
+Per elaborar els mapes, s'ha realitzat un analisis multicriteri on s'han tingut en conte diversos factors i limitants per buscar les zones optimes per ubicar el resort deportiu.
+La cartografia s'ha creat amb Qgis i s'ha integrat mitjançant Qgis2web a Html mitjançant els següents passos:
+1. S'ha exportat les  dades de QGIS a un format compatible amb QGIS2Web: Leaflet .
+2. S'han copiat els fitxers exportats (HTML, CSS, JavaScript, etc.) a la carpeta del projecte HTML.
+3. S'han afegeit les referències als fitxers CSS i JavaScript necessaris al fitxer HTML.
+4. S'ha creat un element <div> amb un id específic per mostrar el mapa.
+  
+## 6 Dificultats/millores.
+
 Reflexiona proactivament sobre el producte elaborat.
-## 7 Pregunta. 
-Respon a les preguntes de manera adient i utilitza el vocabulari tècnic necessari.
-- primer
-- segom
-- tercer
+
+ ## 7 Pregunta. 
