@@ -13,12 +13,12 @@ AKBE és una empresa que ofereix un servei on els clients poden consultar la ubi
 **Motivació:** Compartir coneixements i experiències que es volen transmetre i ajudar altres que estiguin interessats en aquest tema.
 
 ## 2 Dades/continguts.
-Tot el text de la pàgina web i les fotos han estat d'elaboració pròpia a excepció del clip mp4 i les icones que es mostren en la pàgina de presentació. Les dades per elaborar els resultats estan explicades en l'apartat de "Metodología y fuentes", on es mostren les diferents bases cartogràfiques utilitzades y la metología utilitzada per elaborar els resultats.
+Tot el text de la pàgina web ha estat d'elaboració pròpia i les imatges i el clip han estat extrets de Google Images. Les dades per elaborar els resultats estan explicades en l'apartat de "Capacidades", on es mostren les diferents bases cartogràfiques utilitzades y la metologia utilitzada per elaborar els resultats.
 ## 3 Estructura de la Web. 
 - Pàgina de presentació: es mostra qui sóm, que fem i el que es vol aconseguir. Hi trobem animacions, icones i videos del que es vol mostrar.
-- Área de estudi: es localitza l'àrea en la qual s'ha desenvolupat el projecte.
-- Metologia i fonts: s'explica com s'ha desenvolupat el projecte i d'on provenen les bases cartogràfiques per elaborar els mapes mitjançant taules.
-- Ponderació dels criteris: es mostra mitjançant una imatge quin pes ha tingut cada factor per ubicar el resort a l'hora de realitzar l'analisis multicriteri.
+- Área de estudi: es localitza l'àrea en la qual s'ha desenvolupat el projecte juntament amb una breu explicació del que es, imatges i amb links on es mostren ampliacions de les dades.
+- Capacidades: s'explica com s'ha desenvolupat el projecte i d'on provenen les bases cartogràfiques per elaborar els mapes mitjançant taules.
+- Portafolios: es mostra els resultat del projecte i un breu comentari del mapa juntament amb una explicació del perquè s'ha seleccionat la ubicació indicada.
 ![alt text](./media/readme.png "Inici")
 ## 4 Web responsive. 
 
@@ -40,6 +40,6 @@ La cartografia s'ha creat amb Qgis i s'ha integrat mitjançant Qgis2web a Html m
   
 ## 6 Dificultats/millores.
 
-Reflexiona proactivament sobre el producte elaborat.
+  Les millores que s'han dut a terme han sigut les següents:
+  
 
- ## 7 Pregunta. 
