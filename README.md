@@ -19,13 +19,13 @@ Tot el text de la pàgina web ha estat d'elaboració pròpia i les imatges i el 
 - Pàgina de presentació: es mostra qui som, que fem i el que es vol aconseguir. Hi trobem animacions, icones i vídeos del que es vol mostrar.
 ![alt text](media/readmi2.png "Inici")
 - Área de estudio: es localitza l'àrea en la qual s'ha desenvolupat el projecte juntament amb una breu explicació del que és, imatges i amb enllaços on es mostren ampliacions de les dades.
-![alt text](media/readme3.png "Área de estudio")
+![alt text](media/readmi3.png "Área de estudio")
 - Capacidades: s'explica com s'ha desenvolupat el projecte i d'on provenen les bases cartogràfiques per elaborar els mapes mitjançant taules.
-![alt text](media/readme4.png "Capacidades")
+![alt text](media/readmi4.png "Capacidades")
 - Portafolios: es mostra el resultat del projecte i un breu comentari del mapa juntament amb una explicació del perquè s'ha seleccionat la ubicació indicada.
-![alt text](media/readme5.png "Portafolios")
+![alt text](media/readmi5.png "Portafolios")
 - Contacto: és una pàgina on els clients es poden posar en contacte amb l'empresa deixant les seves dades.
-![alt text](media/readme6.png "Contacto")
+![alt text](media/readmi6.png "Contacto")
 
 ## 4 Web responsive. 
 
@@ -56,5 +56,5 @@ La dificultat que hi ha hagut en alguns casos ha estattrobar el llenguatge idoni
 **Pàgina abans d'aplicar les millores**
 ![alt text](media/readme.png "Abans")
 **Pàgina després d'aplicar les millores**
-![alt text](media/readme2.png "Després")
+![alt text](media/readmi2.png "Després")
 
