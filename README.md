@@ -17,7 +17,7 @@ AKBE és una empresa que ofereix un servei on els clients poden consultar la ubi
 Tot el text de la pàgina web ha estat d'elaboració pròpia i les imatges i el clip han estat extrets de Google Images. Les dades per elaborar els resultats estan explicades en l'apartat de "Capacidades", on es mostren les diferents bases cartogràfiques utilitzades i la metodologia utilitzada per elaborar els resultats.
 ## 3 Estructura de la Web. 
 - Pàgina de presentació: es mostra qui som, que fem i el que es vol aconseguir. Hi trobem animacions, icones i vídeos del que es vol mostrar.
-![alt text](./media/readme2.png "Inici")
+![alt text](media/readmi2.png "Inici")
 - Área de estudio: es localitza l'àrea en la qual s'ha desenvolupat el projecte juntament amb una breu explicació del que és, imatges i amb enllaços on es mostren ampliacions de les dades.
 ![alt text](./media/readme3.png "Área de estudio")
 - Capacidades: s'explica com s'ha desenvolupat el projecte i d'on provenen les bases cartogràfiques per elaborar els mapes mitjançant taules.
