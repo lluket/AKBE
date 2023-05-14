@@ -47,7 +47,7 @@ La cartografia s'ha creat amb Qgis i s'ha integrat mitjançant Qgis2web a Html m
   
 ## 6 Dificultats/millores.
 
-  Les dificultats que hi ha hagut en alguns casos, trobar el llenguatge idoni en CSS i JS per aconseguir allò que es volia representar.
+La dificultat que hi ha hagut en alguns casos ha estattrobar el llenguatge idoni en CSS i JS per aconseguir allò que es volia representar.
 
   Les millores que s'han dut a terme han sigut les següents:
   - Ampliació de la pàgina d'Área de estudio
