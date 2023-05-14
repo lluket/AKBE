@@ -3,7 +3,7 @@
 
 AKBE és una empresa que ofereix un servei on els clients poden consultar la ubicació òptima per realitzar qualsevol tipus d'activitat. 
 
-####Logo
+
 ![alt text](./media/logo6.png "logo")
 
 
@@ -53,8 +53,8 @@ La cartografia s'ha creat amb Qgis i s'ha integrat mitjançant Qgis2web a Html m
   - Ampliació de la pàgina d'Área de estudio
   - Suprimir la pàgina de "Ponderaciones de los criterios" i canviar els noms de les pàgines.
   
-  - ####Pàgina abans d'aplicar les millores 
+####Pàgina abans d'aplicar les millores 
   ![alt text](./media/readme.png "Abans")
-    - ####Pàgina després d'aplicar les millores 
+  ####Pàgina després d'aplicar les millores 
   ![alt text](./media/readme2.png "Després")
 
